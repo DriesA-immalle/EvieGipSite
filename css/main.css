@@ -458,14 +458,14 @@ button, .button {
       color: #fff; } }
 
 .button__accent {
-  background-color: #fbc531;
-  border-color: #fbc531;
+  background-color: #05bd8d;
+  border-color: #05bd8d;
   color: #fff; }
   @media (min-width: 992px) {
     .button__accent:hover {
-      background-color: #05bd8d;
-      border-color: #05bd8d;
-      color: #fff; } }
+      background-color: #fff;
+      border-color: #fff;
+      color: #05bd8d; } }
 
 .button__delete {
   background-color: tomato;
