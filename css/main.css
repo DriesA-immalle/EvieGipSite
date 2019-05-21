@@ -1392,3 +1392,15 @@ select {
         border-bottom: 1px solid #ff3838;
         transform: none;
         transition: none; } }
+        video {
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        iframe{
+          display:block;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+        }

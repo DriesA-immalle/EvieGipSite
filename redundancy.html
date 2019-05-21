@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta class="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Casestudy redundancy</title>
+	<link rel='stylesheet' href='css/main.css' />
+</head>
+<body>
+	<!-- navbar -->
+	<div class="navbar navbar--extended">
+		<nav class="nav__mobile"></nav>
+		<div class="container">
+			<div class="navbar__inner">
+				<a href="#" class="navbar__logo">Logo</a>
+				<nav class="navbar__menu">
+					<ul>
+						<li><a href="#">Option</a></li>
+						<li><a href="#">Option 2</a></li>
+					</ul>
+				</nav>
+				<div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path></svg></a></div>
+			</div>
+		</div>
+	</div>
+	<!-- Hero unit -->
+	<div class="page__header">
+		<div class="hero__overlay hero__overlay--gradient"></div>
+		<div class="hero__mask"></div>
+		<div class="page__header__inner">
+			<div class="container">
+				<div class="page__header__content">
+					<div class="page__header__content__inner" id='navConverter'>
+						<h1 class="page__header__title">Multi-purpose page</h1>
+						<p class="page__header__text">This is mostly a simple layout, rather than a complete page unlike the others. However this is a really useful starting point for anything you want to create.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Page content -->
+	<div class="page">
+		<div class="container">
+			<div class="page__inner">
+				<div class="page__main">
+					<div class="text-container--center">
+						<h3 class="page__main__title">Redundancy & Disaster Recovery</h3>
+						<p>Het eerste onderdeel waar ik hier op ETAP kennis mee maakte was alles wat te maken had met: redundancy, backups en disaster recovery. Op zich één van de belangrijkste onderdelen in het netwerk. Stel je maar eens voor wat een chaos het zou zijn als er hier iets misloopt en plots zijn 250 werknemers alles kwijt waar ze mee bezig waren. De kans dat iedereen alles verliest is natuurlijk heel klein dankzij alle maatregelen die hier genomen zijn! We beginnen met redundancy, ofwel het dubbel verbinden en plaatsen van onderdelen. Alles is hier dubbel: elke server, elke verbinding, elke switch, elke router, elke firewall en zelfs elke aansluiting naar buiten toe! Stel je maar eens voor dat bij werken aan de straat een kabel geraakt wordt. Dat zou geen enkel probleem zijn voor ETAP, het werk kan er gewoon doorgaan op de andere aansluiting! 
+						</p>
+						<h3 class="page__main__title">Het netwerk</h3>
+						<p>
+								Deze wirwar van lijnen waar je waarschijnlijk niets uit kan opmaken is een plannetje dat de verbindingen toont. Links en rechts vanboven zie je een opstelling van drie servers. Elke server hangt vast aan een Nexus 3000 switch en ook nog eens aan de switch van de andere zijde van het terrein. Deze switches onderling zijn ook nog eens met elkaar verbonden! 
+								Als je alles dubbel hebt dan kan er een onderdeel kapot gaan zonder dat iemand het merkt. Dat is net wat we willen, ervoor zorgen dat iedereen altijd door kan werken. 
+						</p>
+						<h3 class="page__main__title">Backups</h3>
+						<p>
+								Naast al die redundancy zijn er natuurlijk ook tonnen vol backups, en nee, dat is geen woordspeling. Op een rek in de serverkamer staan letterlijk dozen vol met tapes van backups. Ze gaan tot wel tien jaar terug, want er moest iemand maar eens een bestand van zo lang geleden terug willen. Wat volgens Johnny ook weldegelijk soms gebeurd. Tegenwoordig worden er natuurlijk geen tapes meer gebruikt, alles gaat digitaal nu op ETAP. Elk uur, maand, kwartaal en jaar wordt er een specifieke backup genomen. Je vraagt jezelf waarschijnlijk af: “Hoe kan dat nu, zoveel opslagruimte kan er toch nooit zijn?”. Daar ben je ook niet verkeerd, al die backups samen nemen een ongelooflijke hoeveelheid ruimte in beslag. VMware, de virtualisatie software die ze hier gebruiken heeft een geweldige oplossing hiervoor. CBT ofwel Changed Block Tracking, een systeem waarbij alleen blokken die veranderd zijn worden geback-upt. Dat bespaard natuurlijk hopen ruimte, maar er zou nog altijd teveel data zijn.  Daarom wordt er nog een gigantische compressie uitgevoerd. Resultaat? 470 terabyte opgeslagen als 50 terabyte aan functionele files! Een prachtig, ingenieus systeem als je het mij vraagt.!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src='js/app.min.js'></script>
+</body>
+</html>
